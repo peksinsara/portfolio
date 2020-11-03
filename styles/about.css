@@ -1,0 +1,99 @@
+body {
+  width: 1440px;
+  height: 1024px;
+  background: #2d3438;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(196, 196, 196, 0.1);
+  mix-blend-mode: lighten;
+}
+
+.nav-menu ul li {
+  float: right;
+}
+
+.nav-menu ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.nav-menu ul li a:hover {
+  background-color: #57a9c2;
+}
+.container {
+  position: absolute;
+  width: 1110px;
+  height: 664px;
+  margin-left: 150px;
+  top: 95px;
+
+  background: rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+}
+.greeting {
+    position: absolute;
+    width: 283px;
+    height: 42px;
+    right: 390px;
+    top: 80px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 30px;
+  
+    color: #b7b5b5;
+  }
+.info hr{
+    position: absolute;
+    top:160px;
+    width: 590px;
+    right: 79px;
+}
+
+.more-info {
+    position: absolute;
+    width: 600px;
+    height: px;
+    right: 70px;
+    top: 170px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    color: #b7b5b5;
+  }
+  .more-info1{
+    position: absolute;
+    width: 600px;
+    height: px;
+    right: 70px;
+    top: 280px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    color: #b7b5b5;
+  }
+
+  .image {
+    position: absolute;
+    width: 370px;
+    height: 492px;
+    right: 690px;
+    top: 86px;
+    border-radius: 12px;
+  }
