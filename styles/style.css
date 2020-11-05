@@ -11,14 +11,15 @@ body {
   overflow: hidden;
   background: rgba(196, 196, 196, 0.1);
   mix-blend-mode: lighten;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
 }
 
-.nav-menu ul li {
-  float: right;
-}
+
 
 .nav-menu ul li a {
-  display: block;
+  display: flex;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -53,6 +54,7 @@ body {
 
   color: #b7b5b5;
 }
+
 .name {
   position: absolute;
   width: 350px;
@@ -114,9 +116,11 @@ body {
 }
 
 .medias {
+  display: flex;
+  justify-content: space-around;
   position: absolute;
   top: 466px;
-  width: 200px;
+  width: 250px;
   left: 300px;
   padding: 10px;
 }

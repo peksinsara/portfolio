@@ -1,0 +1,29 @@
+body {
+    width: 1440px;
+    height: 1024px;
+    background: #2d3438;
+  }
+  
+  .nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(196, 196, 196, 0.1);
+    mix-blend-mode: lighten;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+  }
+  
+  .nav-menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .nav-menu ul li a:hover {
+    background-color: #57a9c2;
+  }

@@ -11,10 +11,9 @@ body {
   overflow: hidden;
   background: rgba(196, 196, 196, 0.1);
   mix-blend-mode: lighten;
-}
-
-.nav-menu ul li {
-  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
 }
 
 .nav-menu ul li a {
@@ -38,6 +37,7 @@ body {
   background: rgba(0, 0, 0, 0.16);
   border-radius: 20px;
 }
+
 .greeting {
   position: absolute;
   width: 283px;
@@ -53,13 +53,28 @@ body {
 
   color: #b7b5b5;
 }
+
+.info{
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 30px;
+  color: #b7b5b5;
+  margin-left: 440px;
+  margin-top:160px;
+  
+}
+
 .info hr {
   position: absolute;
   top: 160px;
   width: 590px;
   right: 79px;
 }
-
+/*
 .more-info {
   position: absolute;
   width: 600px;
@@ -88,7 +103,7 @@ body {
   line-height: 30px;
   color: #b7b5b5;
 }
-
+*/
 .image {
   position: absolute;
   width: 370px;
@@ -118,6 +133,7 @@ body {
   line-height: 20px;
   color: #57a9c2;
   margin-left: 5px;
+
 }
 .technologies p,
 .frameworks p,
@@ -132,6 +148,7 @@ body {
   font-weight: normal;
   font-size: 15px;
   line-height: 20px;
+
 
   color: #ffffff;
 }
@@ -156,7 +173,7 @@ body {
   border-radius: 5px;
 }
 
-button {
+.cv {
   position: absolute;
   width: 162.85px;
   height: 57.1px;

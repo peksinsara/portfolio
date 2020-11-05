@@ -11,10 +11,9 @@ body {
   overflow: hidden;
   background: rgba(196, 196, 196, 0.1);
   mix-blend-mode: lighten;
-}
-
-.nav-menu ul li {
-  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
 }
 
 .nav-menu ul li a {
