@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
@@ -15,7 +15,22 @@
     </ul>
   </div>
 <body>
-    
+    <div class="container">
+      <h1>Contact Me</h1>
+      <hr>
+      <div class="medias"></div>
+      <form id="form-id" method="post" action="contact.php" class="main-content">
+      
+        <input type="text" placeholder="Name" id="name" name="name">
+        <input type="email" placeholder="Email" id="email" name="email">
+        <input type="text" placeholder="Text" id="text" name="text">
+        <div class="submit-btn">
+          <button type="submit" id="submit">SUBMIT</button>
+        </div>
+        <!--<input type="button" value="SUBMIT" id="submit" >-->
+        
+      </form>
+    </div>
     
 </body>
 </html>

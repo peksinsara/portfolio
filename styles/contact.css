@@ -1,0 +1,122 @@
+body {
+  width: 1440px;
+  height: 1024px;
+  background: #2d3438;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(196, 196, 196, 0.1);
+  mix-blend-mode: lighten;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+}
+
+.nav-menu ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.nav-menu ul li a:hover {
+  background-color: #57a9c2;
+}
+
+.container {
+  position: absolute;
+  width: 1110px;
+  height: 664px;
+  margin-left: 150px;
+  top: 95px;
+
+  background: rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+}
+
+.container h1 {
+  position: absolute;
+  left: 42.39%;
+  right: 35.46%;
+  top: 0.3%;
+  bottom: 89.76%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 66px;
+
+  color: #ffffff;
+}
+
+.main-content {
+  position: absolute;
+  left: 29.98%;
+  right: 22.98%;
+  top: 28.77%;
+  bottom: 4.52%;
+  justify-content: space-around;
+  background: rgba(16, 16, 16, 0.46);
+  border-radius: 12px;
+  max-width: 880px;
+  padding: 15px;
+
+
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 35px;
+  width: 450px;
+  justify-content: center;
+
+  background: rgba(196, 196, 196, 0.47);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+margin: 20px auto;
+color: #57a9c2;
+font-size: large;
+  
+
+}
+::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 45px;
+  
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.main-content :nth-child(3){
+  height: 200px;
+}
+
+#submit{
+
+  position: absolute;
+bottom: 15px;
+justify-content: center;
+  margin-left: 35%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 45px;
+  background: #57A9C2;
+  border-radius: 12px;
+  text-align: center;
+
+  color: #262C2F;
+}
+
+
