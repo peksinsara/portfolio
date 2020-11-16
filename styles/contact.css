@@ -41,8 +41,7 @@ body {
 
 .container h1 {
   position: absolute;
-  left: 42.39%;
-  right: 35.46%;
+  left: 45%;  
   top: 0.3%;
   bottom: 89.76%;
 
@@ -117,6 +116,15 @@ justify-content: center;
   text-align: center;
 
   color: #262C2F;
+}
+.medias {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 250px;
+  top:15%;
+left: 42%;
+  padding: 10px;
 }
 
 
